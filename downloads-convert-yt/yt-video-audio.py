@@ -16,7 +16,7 @@ import moviepy.editor as mp
 sis_op = sys.platform
 sis_op = sis_op[:3]
 
-if sis_op == 'linux':
+if sis_op == 'lin':
     os.system('clear')
     print('* Creando directorios ...')
 
