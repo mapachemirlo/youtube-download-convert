@@ -22,9 +22,8 @@ if sis_op == 'lin':
 
     path_folder_video = '/DownloadYoutube/Video/'
     path_folder_song = '/DownloadYoutube/Song/'
-    mode = 0o666
-    os.mkdir(path_folder_video, mode)
-    os.mkdir(path_folder_song, mode)
+    os.mkdir(path_folder_video)
+    os.mkdir(path_folder_song)
     name_video = './DownloadYoutube/Video/'
 elif sis_op == 'win':
     os.system('cls')
