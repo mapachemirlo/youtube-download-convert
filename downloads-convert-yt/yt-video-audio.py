@@ -22,7 +22,7 @@ if sis_op == 'linux':
 
     path_folder_video = '/DownloadYoutube/Video/'
     path_folder_song = '/DownloadYoutube/Song/'
-    mode = 0755
+    mode = 0o666
     os.system(path_folder_video, mode)
     os.system(path_folder_song, mode)
     name_video = './DownloadYoutube/Video/'
