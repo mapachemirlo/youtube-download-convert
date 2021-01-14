@@ -19,8 +19,8 @@ sis_op = sis_op[:3]
 if sis_op == 'lin':
     os.system('clear')
     print('* Creando directorios ...')
-    os.system('mkdir ~/DownloadYoutube/Video/')
-    os.system('mkdir ~/DownloadYoutube/Song/')
+    os.system('mkdir DownloadYoutube/Video/')
+    os.system('mkdir DownloadYoutube/Song/')
     path_folder_video = '~/DownloadYoutube/Video/'
     path_folder_song = '~/DownloadYoutube/Song/'
     name_video = '.~/DownloadYoutube/Video/'
